@@ -1,0 +1,6 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Private paid work inquiry
+    url: https://github.com/popsiclelmlm/popsiclelmlm/issues/new?template=paid-work.yml
+    about: Use the profile intake form if you prefer a general paid-work request instead of a repo-specific support issue.
+

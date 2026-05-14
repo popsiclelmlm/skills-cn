@@ -1,0 +1,47 @@
+name: Support request
+description: Ask about setup, Chinese docs, workflow adoption, or customization support.
+title: "[Support]: "
+labels:
+  - support
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out. Do not include API keys, passwords, tokens, private repository data, or other secrets in this public issue.
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: Request type
+      options:
+        - Setup or installation help
+        - Chinese documentation clarification
+        - Agent workflow customization
+        - Paid support inquiry
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What are you trying to do, and where are you stuck?
+      placeholder: Describe your agent, repository type, operating system, and the skill or workflow involved.
+    validations:
+      required: true
+  - type: textarea
+    id: expected_outcome
+    attributes:
+      label: Expected outcome
+      description: What would a successful answer or support session produce?
+      placeholder: For example, a working skill setup, translated docs guidance, or a customized workflow plan.
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact
+      description: Public GitHub handle, email, or other contact route for follow-up. Avoid secrets.
+      placeholder: "@username or email@example.com"
+    validations:
+      required: true
+
