@@ -1,0 +1,68 @@
+name: Paid support request
+description: Request paid help with skills-cn setup, docs, or workflow customization.
+title: "[Paid support]: "
+labels:
+  - paid-support
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for paid setup, documentation, translation, or workflow customization work.
+
+        Do not include API keys, passwords, tokens, private repository data, customer data, or other secrets in this public issue.
+  - type: dropdown
+    id: work_type
+    attributes:
+      label: Work type
+      options:
+        - Skill installation help
+        - Chinese documentation update
+        - Agent workflow customization
+        - Repository-specific setup
+        - Training or handoff notes
+        - Other focused task
+    validations:
+      required: true
+  - type: input
+    id: budget
+    attributes:
+      label: Budget
+      description: Expected budget or range for the work.
+      placeholder: "Example: USD 20-100"
+    validations:
+      required: true
+  - type: input
+    id: timeline
+    attributes:
+      label: Timeline
+      description: When do you need this completed?
+      placeholder: "Example: this week"
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Request details
+      description: Describe the repo, OS, skill, current blocker, and expected result.
+      placeholder: "I need help with..."
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance checklist
+      description: How should the work be verified?
+      placeholder: |
+        - Skill installs successfully
+        - Workflow is documented with exact commands
+        - Chinese docs explain the setup clearly
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact
+      description: Public GitHub handle, email, or another contact route for follow-up.
+      placeholder: "@username or email@example.com"
+    validations:
+      required: true
