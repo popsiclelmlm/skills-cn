@@ -44,4 +44,30 @@ body:
       placeholder: "@username or email@example.com"
     validations:
       required: true
-
+  - type: input
+    id: budget
+    attributes:
+      label: Budget
+      description: Optional for free questions, required context for paid customization or support.
+      placeholder: "Example: USD 20-100, or free question"
+    validations:
+      required: false
+  - type: input
+    id: timeline
+    attributes:
+      label: Timeline
+      description: When do you need this answered or delivered?
+      placeholder: "Example: this week, no hard deadline"
+    validations:
+      required: false
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance checklist
+      description: How can we verify that the setup, docs answer, or customization is complete?
+      placeholder: |
+        - Skill installs successfully
+        - Chinese docs clarify the requested workflow
+        - Custom workflow is documented with exact commands
+    validations:
+      required: false
