@@ -6,6 +6,10 @@ For setup help, Chinese documentation questions, agent workflow customization, o
 
 For paid customization, include your budget range, timeline, repository or workflow context, and a short acceptance checklist.
 
+For paid setup, docs, or workflow customization requests, use the paid support form:
+
+<https://github.com/popsiclelmlm/skills-cn/issues/new?template=paid-support.yml>
+
 Do not post API keys, passwords, tokens, private repository data, or other secrets in public issues.
 
 ## 中文支持
@@ -15,5 +19,9 @@ Do not post API keys, passwords, tokens, private repository data, or other secre
 <https://github.com/popsiclelmlm/skills-cn/issues/new?template=support-request.yml>
 
 如果是付费定制，请附上预算范围、时间线、仓库或工作流背景，以及简短验收清单。
+
+付费安装、文档或工作流定制请求可以使用付费支持表单：
+
+<https://github.com/popsiclelmlm/skills-cn/issues/new?template=paid-support.yml>
 
 请不要在公开 issue 中发布 API key、密码、token、私有仓库内容或其他敏感信息。
